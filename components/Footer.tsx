@@ -5,7 +5,7 @@ import {
   FaSquareInstagram,
   FaSquareSnapchat,
 } from "react-icons/fa6";
-import { TbBracketsAngle } from "react-icons/tb";
+
 import { FaFacebookSquare } from "react-icons/fa";
 import Image from "next/image";
 import { mainLinks } from "@/constants";
@@ -17,8 +17,8 @@ const Footer = () => {
       <div className="main-container">
         <div className="py-5 mb-5 border-b border-gray-300 border-opacity-20 flex justify-between items-center max-md:flex-col max-md:gap-8">
           <div className="flex flex-1 gap-1 items-center text-xl font-medium text-white">
-            <h1>DEV-THREADS</h1>
-            <TbBracketsAngle />
+            <h1>Techloom Solutions</h1>
+         
           </div>
 
           <ul className="flex items-center justify-center gap-16 flex-1 text-white max-md:flex-col max-md:gap-5">

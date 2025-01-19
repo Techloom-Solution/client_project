@@ -14,7 +14,7 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Dev-Threads",
+  title: "Techloom solutions",
   description: "E-commerce Website",
 };
 
