@@ -36,6 +36,7 @@ const AddToCart = ({
           toast.success(`${name} has been added to cart`);
         }
       }}
+      className="px-2 py-2 bg-black text-white rounded-xl"
     >
       Add To Cart
     </button>

@@ -38,14 +38,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full text-center text-sm text-white flex flex-col gap-5 md:flex-row justify-center items-center">
-          <span>All Rights Reserved devthreads.com</span>
-
-          <Image
-            src={"/payment-getways.png"}
-            width={300}
-            height={100}
-            alt="accepted payments"
-          />
+          <span>All Rights Reserved techloomsolutions.tech</span>
         </div>
       </div>
     </footer>

@@ -6,7 +6,6 @@ import { mainLinks } from "@/constants";
 import { userLinks } from "@/constants";
 import { User } from "@prisma/client";
 
-//icons
 import {
   AiOutlineUser,
 } from "react-icons/ai";
@@ -36,7 +35,7 @@ const Navbar: React.FC<NavbarProps> = ({ user }) => {
       <div className="main-container border-b border-1 flex justify-between items-center py-2 relative">
         <Link href={"/"}>
           <div className="flex gap-1 items-center text-xl font-medium text-black">
-            <h1>Techloom Solutions</h1>
+            <img src="./logo.png" alt="techloom" className="h-12 w-12" />
            
           </div>
         </Link>

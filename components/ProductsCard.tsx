@@ -21,7 +21,7 @@ const ProductsCard = ({
     toast.error("Please choose a size first");
   };
   return (
-    <div className=" relative flex flex-col items-center">
+    <div className=" relative mt-2 flex border py-5 flex-col items-center">
       <div className="relative group">
         <Image
           src={product.image}
