@@ -18,18 +18,18 @@ const Hero = () => {
           pagination={{ clickable: true }}
           spaceBetween={10}
           slidesPerView={1}
-          className="h-full w-full"
+          className="h-[540px] w-full"
         >
           <SwiperSlide>
             <img
               src="/slider-image-1.png"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-contain"
             />
           </SwiperSlide>
           <SwiperSlide>
             <img
               src="/slider-image-2.png"
-              className="h-full w-full object-cover"
+              className="h-full w-full object-contain"
             />
           </SwiperSlide>
         </Swiper>
